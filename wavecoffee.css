@@ -1,0 +1,219 @@
+body {
+    background-color: ghostwhite;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* header */
+h1 {
+    font-family: 'Rampart One', cursive;
+    color: gold;
+    background-color: navy;
+    border-radius: 8px;
+    border: solid 1px gold;
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+  
+}
+.header {
+    background-image: url('./Users/philmakarow/Desktop/Coding/Codecademy-Full-Stack-Engineer-Path/Projects/HelloWorld/coffee.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 1px black;
+    height: 200px;
+    
+}
+
+.header .content {
+    display: flex;
+    align-items: center;
+    gap: 600px;
+    max-width: 100%;
+}
+
+.menu li {
+    display: inline;
+    margin: 10px;
+    padding: 5px;
+    border: solid 1px gold;
+    background-color: navy;
+    padding: 10px 10px;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 1368px) {
+    .menu li {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1186px) {
+    .menu li {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 895px) {
+    .menu li {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .menu li{
+        display: block;
+    }
+}
+
+a {
+    color: gold;
+    text-decoration: none;
+    font-size:  1.5rem;
+}
+
+
+.menu li :hover {
+    color: yellow;
+}
+
+/* Mission */
+
+.section {
+    background-image: url('./Users/philmakarow/Desktop/Coding/Codecademy-Full-Stack-Engineer-Path/Projects/HelloWorld/coffeeshop(1).jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-top: 20px;
+    border: solid 1px black;
+    
+}
+
+@media only screen and (max-width: 1186px) {
+    .section{
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 895px) {
+    .section{
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .section{
+        margin-top: 80px;
+    }
+}
+
+#mission {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.25rem;
+    background-color: navy;
+    color:gold;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid 1px gold;
+}
+
+/* Products */
+
+.section2 {
+    margin-top: 20px;
+}
+
+#products {
+    text-align: center;
+    color: gold;
+    background-color: navy;
+    border: solid 1px gold;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.coffee {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url('./Users/philmakarow/Desktop/Coding/Codecademy-Full-Stack-Engineer-Path/Projects/HelloWorld/coffeeshop.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+figure {
+    border: solid 1px black;
+    display: flex;
+    flex-flow: column;
+    max-width: 300px;
+    padding: 5px;
+    background-color: black;
+}
+figcaption {
+    background-color: navy;
+    color: gold;
+    text-align: center;
+    padding: 3px;
+}
+
+/* Team */
+.team {
+    color: gold;
+    background-color: navy;
+    text-align: center;
+    border: solid 1px gold;
+    margin-top: 20px;
+}
+
+.teammates {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1186px) {
+    .teammates {
+        flex-flow: wrap;
+    }
+}
+
+@media only screen and (max-width: 895px) {
+    .teammates {
+        flex-flow: wrap;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .teammates {
+        flex-flow: wrap;
+    }
+}
+
+/* Footer */
+
+.footer {
+    color: gold;
+    background-color: navy;
+    border: solid 1px gold;
+    padding-left: 10px;
+}
+
+@media only screen and (max-width: 1186px) {
+    .footer {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 895px) {
+    .footer {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        text-align: center;
+    }
+}
