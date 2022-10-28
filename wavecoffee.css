@@ -143,6 +143,11 @@ a {
     background-size: cover;
 }
 
+#coffeepic {
+    height: auto;
+    width: 100%;
+   }
+
 figure {
     border: solid 1px black;
     display: flex;
